@@ -31,7 +31,7 @@ export default function GamePlay(props) {
     const randomNumber = generateRandomNumber(1, 7);
     setCurrentDice(randomNumber);
 
-    if (selectedNumber == randomNumber) {
+    if (selectedNumber === randomNumber) {
       setScore((prev) => prev + randomNumber);
     } else {
       setScore((prev) => prev - 2);
