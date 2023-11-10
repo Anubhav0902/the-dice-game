@@ -88,6 +88,7 @@ export default function GamePlay(props) {
   );
 }
 
+
 const Button = styled.button`
   color: white;
   padding: 10px 18px;
